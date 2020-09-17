@@ -1,0 +1,7 @@
+package com.demo.ratingdataservice.resource;
+
+
+@Restcontroller
+public class RatingsDataResource {
+
+}

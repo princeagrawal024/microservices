@@ -1,0 +1,22 @@
+package com.demo.moviecatalogservice.resources;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.moviecatalogservice.model.CatalogItem;
+
+@RestController
+public class MovieCatalogResource {
+	
+	 public List<CatalogItem> getCatalog(String userID){
+		 
+		 List list = new ArrayList<CatalogItem>();
+		 
+		 list.add(new CatalogItem("Pursiut of Happyness", "BEst Movie", 5))
+		 
+	 }
+
+}

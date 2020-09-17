@@ -1,0 +1,18 @@
+package com.demo.movieinfoservice.resources;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.demo.movieinfoservice.model.Movie;
+
+@RestController
+@RequestMapping("/movies")
+public class MovieResource {
+	
+	public Movie getMovieInfo() {
+		
+		
+		return new Movie("101", "Avatar");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.demo.ratingdataservice.model;
+
+public class Rating {
+	
+	private String movieId;
+	private int rating;
+
+}

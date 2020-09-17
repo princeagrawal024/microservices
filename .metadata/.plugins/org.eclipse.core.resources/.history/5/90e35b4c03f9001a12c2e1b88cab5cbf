@@ -1,0 +1,6 @@
+package com.demo.moviecatalogservice.model;
+
+public class CatalogItem {
+	
+
+}

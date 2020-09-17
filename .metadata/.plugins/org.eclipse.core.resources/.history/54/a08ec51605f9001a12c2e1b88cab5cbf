@@ -1,0 +1,11 @@
+package com.demo.movieinfoservice.resources;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RestController
+@RequestMapping
+public class MovieResource {
+	
+	
+
+}

@@ -1,0 +1,5 @@
+package com.demo.ratingdataservice.resource;
+
+public class RatingsDataResource {
+
+}
