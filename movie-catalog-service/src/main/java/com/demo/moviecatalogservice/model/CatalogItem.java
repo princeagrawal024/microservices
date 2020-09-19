@@ -14,6 +14,14 @@ public class CatalogItem {
 		this.rating = rating;
 	}
 	
+	
+	
+	public CatalogItem() {
+		super();
+	}
+
+
+
 	public String getName() {
 		return name;
 	}

@@ -2,9 +2,20 @@ package com.demo.moviecatalogservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class MovieCatalogServiceApplication {
+	
+	@Bean
+	public RestTemplate getRestTemplate() {
+		//this is the right approach as this will create only one approach
+		//Synchronous Programming
+		//RestTemplate is thread Safe
+		return new RestTemplate();
+	}
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(MovieCatalogServiceApplication.class, args);

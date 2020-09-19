@@ -1,0 +1,5 @@
+package com.demo.ratingdataservice.model;
+
+public class UserRating {
+
+}

@@ -2,34 +2,48 @@ package com.demo.moviecatalogservice.model;
 
 public class Movie {
 	
-	public Movie(String movideId, String name) {
-		super();
-		this.movideId = movideId;
-		this.name = name;
-	}
 	
+	private String movideId;
+	private String name;
+	private String description;
 	
 	
 	public Movie() {
 		super();
 	}
+	
+	public Movie(String movideId, String name, String description) {
+		super();
+		this.movideId = movideId;
+		this.name = name;
+		this.description = description;
+	}
 
-
-
-	private String movideId;
-	private String name;
 	public String getMovideId() {
 		return movideId;
 	}
-	public void setMovideId(String movideId) {
-		this.movideId = movideId;
-	}
+	
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public void setMovideId(String movideId) {
+		this.movideId = movideId;
+	}
+	
 	
 
 }

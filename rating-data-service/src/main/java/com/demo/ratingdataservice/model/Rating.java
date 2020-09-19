@@ -5,6 +5,9 @@ public class Rating {
 	private String movieId;
 	private int rating;
 	
+	public Rating() {
+	}
+	
 	public Rating(String movieId, int rating) {
 		super();
 		this.movieId = movieId;
@@ -22,7 +25,4 @@ public class Rating {
 	public void setRating(int rating) {
 		this.rating = rating;
 	}
-	
-	
-
 }

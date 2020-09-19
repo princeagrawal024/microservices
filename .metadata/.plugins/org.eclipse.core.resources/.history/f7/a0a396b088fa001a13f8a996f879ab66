@@ -1,0 +1,12 @@
+package com.demo.ratingdataservice.model;
+
+import java.util.List;
+
+public class UserRating {
+
+	  private List<Rating> userRatings;
+	  
+	  
+	
+	
+}
